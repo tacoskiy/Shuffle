@@ -1,0 +1,11 @@
+services:
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/container-frontend:delegated
+      - /container-frontend/node_modules
+    ports:
+      - "6060:6060"
+    env_file:
+      - .env
