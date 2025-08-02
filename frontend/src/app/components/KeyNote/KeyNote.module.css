@@ -1,0 +1,11 @@
+.keyNote{
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+}
+
+.keyNote.W{
+    background-image: url(/img/keyNotes/keyNoteW.svg);
+}
