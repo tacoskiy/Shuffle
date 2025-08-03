@@ -1,11 +1,29 @@
 .keyNote{
     width: 300px;
     height: 180px;
-    background-color: white;
     background-size: contain;
     background-position: center;
+    opacity: .9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    filter: brightness(1);
 }
 
 .keyNote.W{
-    background-image: url(/img/keyNotes/keyNoteW.svg);
+    background-image: url("/img/keyNotes/keyNoteW.svg");
+}
+
+.keyNote.A{
+    background-image: url("/img/keyNotes/keyNoteA.svg");
+}
+
+.keyNote.S{
+    background-image: url("/img/keyNotes/keyNoteS.svg");
+}
+
+.keyNote.D{
+    background-image: url("/img/keyNotes/keyNoteD.svg");
 }

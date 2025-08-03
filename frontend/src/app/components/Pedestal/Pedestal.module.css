@@ -5,12 +5,13 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100px);
+    transform: translate(-50%, -90px);
     background-image: url("/img/svg/pedestal.svg");
     background-position: top;
     transition: top .3s;
+    z-index: 2;
 }
 
 .pedestal.shrink{
-    top: calc(50% + 150px);
+    top: calc(50% + 90px);
 }
